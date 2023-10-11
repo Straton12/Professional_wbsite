@@ -1,0 +1,102 @@
+.img{
+    align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+    background-color: #01012d;
+}
+.div1 {
+
+    align-content: end;
+
+
+
+}
+.div1 ul , li{
+    list-style-type: none;
+    align-items: end;
+    font-family: "Times New Roman";
+    color: aliceblue;
+
+}
+ul{
+    list-style-type: none;
+    float: right;
+    background-color: #11bd06   ;
+    width: 1250px;
+    height: 50px;
+
+
+}
+li a:hover{
+
+    background-color: #01012d;
+    color: #be081d;
+}
+li,a{
+    color: white;
+    font-size: 15px;
+    display: inline;
+    margin-right: 20px;
+    padding: 10px ;
+    text-decoration: none;
+    align-content: center;
+
+
+}
+.div2{
+    width: 1400px;
+    height: 92px;
+    background-color: #01012d;
+}
+.div3{
+    color: #be081d;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Times New Roman";
+    margin-bottom: unset;
+
+}
+.p1{
+    text-align: center;
+    font-family: "Times New Roman";
+
+}
+#video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    z-index: -1;
+}
+#video-background{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+#back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+.section{
+    text-align: center;
+    padding: 100px;
+    color: #d00606;
+    font-size: 52px;
+}
